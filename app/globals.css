@@ -1,0 +1,19 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+.text-with-shadow {
+    font-size: 24px; /* Tamaño de la fuente */
+    color: #fff; /* Color del texto */
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5); /* Aplicar sombra al texto */
+    font-size: 36px;
+    font-weight: bold;
+  }
+
+  .text-with-shadow-sm {
+    color: #fff; /* Color del texto */
+    text-shadow: 4px 6px 4px rgba(0, 0, 0, 0.5); /* Aplicar sombra al texto */
+    font-size: 18px;
+    font-weight: bold;
+  }
