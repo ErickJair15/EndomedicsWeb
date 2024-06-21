@@ -77,9 +77,6 @@ function BannerMain() {
           </span>
         </div>
       </div>
-      <div className='grid grid-cols-1 lg:grid-cols-2 sm:gap-x-3 sm:gap-y-0 gap-y-4 w-full container m-auto mt-4 sm:mt-8'>
-
-      </div>
     </div>
   )
 }
