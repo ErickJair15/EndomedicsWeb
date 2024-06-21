@@ -20,7 +20,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'parallax': 'url("https://endomedicsqro.com.mx/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-19-at-9.27.33-PM.jpeg")',
+        'parallax': "url('../public/new/bannerServicios.jpeg')",
         'home1': "url('../public/home/endomedicsHome1.jpeg')",
         'home2': "url('../public/home/endomedicsHome2.jpeg')",
         'carrusel1':"url('../public/home/medicos1.jpg')",
