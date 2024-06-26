@@ -55,10 +55,10 @@ function HeaderLayout() {
             </a>
           </Link>
         </div>
-        <nav className="bg-[#0C71C3] p-4 hidden sm:block">
+        <nav className="bg-[#0C71C3] sm:p-2 lg:p-4 hidden sm:block">
           <div className="container mx-auto">
             <div className="flex items-center justify-center">
-              <div className="flex space-x-5">
+              <div className="flex lg:space-x-5">
                 <a href="#inicio" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>INICIO</a>
                 <a href="#about" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>QUIENES SOMOS</a>
                 <a href="/productos" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>PRODUCTOS EN VENTA</a>
@@ -69,7 +69,7 @@ function HeaderLayout() {
         </nav>
       </div>
 
-      <div className="flex h-[180px] bg-gray-500 sm:hidden">
+      <div className="flex h-[180px] fixed left-0 top-0 z-20 w-full sm:hidden">
         <div
           className={`${isOpen ? "block" : "hidden"
             } md:hidden fixed z-30 inset-0`}

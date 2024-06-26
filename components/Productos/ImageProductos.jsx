@@ -1,12 +1,23 @@
 import React from 'react'
 
 const ImageProductos = () => {
+    // const productos = [
+    //     { nombre: "Producto 1", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-4.jpeg" },
+    //     { nombre: "Producto 2", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09.jpeg" },
+    //     { nombre: "Producto 3", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-1.jpeg" },
+    //     { nombre: "Producto 4", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-2.jpeg" },
+    //     { nombre: "Producto 5", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-3.jpeg" }
+    // ]
     const productos = [
-        { nombre: "Producto 1", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-4.jpeg" },
-        { nombre: "Producto 2", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09.jpeg" },
-        { nombre: "Producto 3", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-1.jpeg" },
-        { nombre: "Producto 4", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-2.jpeg" },
-        { nombre: "Producto 5", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-3.jpeg" }
+        { nombre: "Fulguración con sistema Argon", imagen: "/new/fulguracionArgon.jpeg" },
+        { nombre: "Láser holmiun de 30wats  y 100 wats", imagen: "/new/laserHomium.jpeg" },
+        { nombre: "Lithiclass neumático", imagen: "/new/litHiClass.jpeg" },
+        { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino.jpeg" },
+        { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino2.jpeg" },
+        { nombre: "Sellador de vasos ligasure", imagen: "/new/selladorVasos.jpeg" },
+        { nombre: "Separador universal Thompson", imagen: "/new/separadorUniversal.jpeg" },
+        { nombre: "Separador universal Thompson", imagen: "/new/separadorUniversal2.jpeg" },
+        { nombre: "Tiramiomas", imagen: "/new/tiramiomas.jpeg" }
     ]
     return (
         <>
@@ -21,7 +32,7 @@ const ImageProductos = () => {
                     <div key={index}  className='w-full group h-[360px] items-end flex transition-all duration-200 hover:pb-4'>
                         <div className='w-full lg:w-[320px] h-[320px] flex justify-center mx-auto shadow-md relative border rounded-xl group-hover:mb-2'>
                             <button className='w-auto h-62 '>
-                                <img src={producto.imagen} className='w-[210px] h-44 rounded-lg shadow-lg' alt={producto.nombre} />
+                                <img src={producto.imagen} className='w-[210px] h-44 rounded-lg shadow-lg object-cover' alt={producto.nombre} />
                             </button>
                             <div className='transition-all group-hover:bg-slate-500 mx-auto w-[100%] group-hover:h-16 absolute bottom-0 rounded-b-xl'>
                             </div>

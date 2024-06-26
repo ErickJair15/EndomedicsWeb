@@ -54,25 +54,25 @@ const Proveedores = () => {
                 <SwiperSlide>
                     <div className='flex justify-center items-center w-full h-36'>
 
-                        <img src="https://endomedicsqro.com.mx/wp-content/uploads/2023/01/Stryker_Corporation-Logo.wine_.png" alt="Slide 1" className='w-[50%] h-auto hover:w-[60%] transition-all' />
+                        <img src="/new/storz.png" alt="Slide 1" className='w-[50%] h-auto hover:w-[60%] transition-all' />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex justify-center items-center w-full h-36'>
 
-                        <img src="https://endomedicsqro.com.mx/wp-content/uploads/2023/01/Smith_nephew.svg_.png" alt="Slide 2" className='w-[50%] h-auto hover:w-[60%] transition-all' />
+                        <img src="/new/lumenis.jpg" alt="Slide 2" className='w-[50%] h-auto hover:w-[60%] transition-all' />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex justify-center items-center w-full h-36'>
 
-                        <img src="https://endomedicsqro.com.mx/wp-content/uploads/2023/01/descarga.png" alt="Slide 3" className='w-[50%] h-auto hover:w-[60%] transition-all' />
+                        <img src="/new/thompson.jpg" alt="Slide 3" className='w-[50%] h-auto hover:w-[60%] transition-all' />
                     </div>
                 </SwiperSlide>
                 <SwiperSlide>
                     <div className='flex justify-center items-center w-full h-36'>
 
-                        <img src="https://endomedicsqro.com.mx/wp-content/uploads/2023/01/1200px-Karl_Storz_Endoskope_logo.svg_.png" alt="Slide 3" className='w-[50%] h-auto hover:w-[60%] transition-all' />
+                        <img src="/new/stryker.png" alt="Slide 3" className='w-[50%] h-auto hover:w-[60%] transition-all' />
                     </div>
                 </SwiperSlide>
             </Swiper>
