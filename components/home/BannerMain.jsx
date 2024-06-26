@@ -9,6 +9,7 @@ function BannerMain() {
           Nuestros servicios
         </span>
       </div>
+      
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-10 mt-10 w-full container m-auto'>
         <div className='flex items-center justify-center w-full relative group'>
           <div className="absolute inset-0 bg-black bg-opacity-50 rounded-md w-full lg:w-[400px] m-auto"></div>
