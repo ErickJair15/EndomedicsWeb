@@ -43,7 +43,7 @@ function HeaderLayout() {
 
   return (
     <div className='relative sm:h-[129px] h-[80px]'>
-      <div className='fixed left-0 w-full top-0 z-20 shadow-md navbar hidden sm:block'>
+      <div className='fixed left-0 top-0 z-20 w-full navbar hidden sm:block'>
         <div className='flex justify-center w-full bg-white'>
           <Link href="/" legacyBehavior>
             <a className="text-white font-bold text-lg">
@@ -55,14 +55,14 @@ function HeaderLayout() {
             </a>
           </Link>
         </div>
-        <nav className="bg-[#0C71C3] sm:p-2 lg:p-4 hidden sm:block">
+        <nav className="bg-[#2563EB] sm:p-2 lg:p-4 hidden sm:block">
           <div className="container mx-auto">
             <div className="flex items-center justify-center">
               <div className="flex lg:space-x-5">
-                <a href="#inicio" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>INICIO</a>
-                <a href="#about" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>QUIENES SOMOS</a>
-                <a href="/productos" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>PRODUCTOS EN VENTA</a>
-                <a href="/contacto" className="text-white hover:font-bold hover:bg-white hover:text-[#0C71C3] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>CONTACTO</a>
+                <a href="#inicio" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>INICIO</a>
+                <a href="#about" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>QUIENES SOMOS</a>
+                <a href="/productos" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>PRODUCTOS EN VENTA</a>
+                <a href="/contacto" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>CONTACTO</a>
               </div>
             </div>
           </div>
@@ -77,7 +77,7 @@ function HeaderLayout() {
         ></div>
         <div
           className={`${isOpen ? "translate-x-0 ease-out" : "-translate-x-full ease-in"
-            } md:translate-x-0 transform fixed z-30 inset-y-0 left-0 w-64 bg-[#0C71C3] text-white overflow-y-auto transition duration-300 ease-in-out`}
+            } md:translate-x-0 transform fixed z-30 inset-y-0 left-0 w-64 bg-[#2563EB] text-white overflow-y-auto transition duration-300 ease-in-out`}
         >
           <div className="flex items-center justify-center mt-8">
             <span className="text-white text-2xl font-semibold uppercase">

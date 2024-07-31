@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <div>
         <HeaderLayout/>
         </div>
-        <LayoutMain className="bg-gradient-to-b from-[#eeece8e4] to-[#ffff]">
+        <LayoutMain className="bg-gradient-to-b from-[#e7e6e4ed] to-[#ffff]">
           {children}
         </LayoutMain>
         <BotonWhats/>

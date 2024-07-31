@@ -23,7 +23,7 @@ function Home() {
       </LayoutMain>
       <BannerMain />
       <Proveedores />
-      <div className='bg-gray-200 sm:h-[550px] grid content-center'>
+      <div className=' sm:h-[550px] grid content-center'>
         <div className="container mx-auto flex items-center">
           <CustomImageGallery />
         </div>

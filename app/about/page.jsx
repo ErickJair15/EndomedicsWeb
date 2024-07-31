@@ -3,7 +3,7 @@ import React from 'react'
 
 function Somos() {
   return (
-    <div className='container mx-auto py-6'>
+    <div className='container mx-auto'>
       <About />
     </div>
   )

@@ -21,6 +21,8 @@ module.exports = {
       backgroundImage: {
         // 'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'parallax': "url('../public/new/bannerServicios.jpeg')",
+        'contacto': "url('../public/contacto/fondo.jpeg')",
+        'productos': "url('../public/new/frame1.jpeg')",
         'home1': "url('../public/home/endomedicsHome1.jpeg')",
         'home2': "url('../public/home/endomedicsHome2.jpeg')",
         'carrusel1':"url('../public/home/medicos1.jpg')",
@@ -28,7 +30,7 @@ module.exports = {
         'collage1':"url('https://endomedicsqro.com.mx/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-19-at-9.26.50-PM.jpeg')",
         'collage2':"url('https://endomedicsqro.com.mx/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-19-at-9.26.16-PM-rotated.jpeg')",
         'collage3':"url('https://endomedicsqro.com.mx/wp-content/uploads/2023/01/WhatsApp-Image-2023-01-19-at-9.25.38-PM-1.jpeg')",
-        'contacto':"url('https://endomedicsqro.com.mx/wp-content/uploads/2023/01/Contact-Us-26-Apr.jpg')",
+        // 'contacto':"url('https://endomedicsqro.com.mx/wp-content/uploads/2023/01/Contact-Us-26-Apr.jpg')",
 
         // 'home3': "url('../public/home/endomedicsHome2.jpeg')",
 

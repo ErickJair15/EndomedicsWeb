@@ -6,7 +6,7 @@ function About() {
             <div className='grid grid-cols-1 gap-y-3 w-full relative'>
                 <div className='grid grid-cols-1 sm:grid-cols-2 gap-y-4'>
                     <div className='w-[100%] flex flex-col justify-center'>
-                        <h3 className='text-[40px] font-bold text-[#0C71C3]' >
+                        <h3 className='text-[40px] font-bold text-[#2563EB]' >
                             QUIENES SOMOS
                         </h3>
                         <p className='text-justify text-slate-600'>

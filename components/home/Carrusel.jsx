@@ -14,7 +14,7 @@ function Carrusel() {
     }, []);
 
     return (
-        <div id='inicio' className="h-[450px] sm:h-64 xl:h-80 2xl:h-[700px] w-full">
+        <div id='inicio' className="h-[450px] sm:h-64 xl:h-80 2xl:h-[700px] w-full  bg-[#2563EB]">
             <Carousel slide={false} className='text-white opacity-100 w-full overflow-hidden'>
                 {/* <img src="/home/endomedicsHome2.jpeg" alt="..." />
                 <img src="/home/endomedicsHome1.jpeg" alt="..." />

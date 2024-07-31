@@ -21,24 +21,24 @@ const ImageProductos = () => {
     ]
     return (
         <>
-            <div className='relative flex items-center justify-center h-56 bg-fixed bg-contacto w-full'>
-                <div className='absolute inset-0 bg-black bg-cover bg-opacity-50'></div>
+            <div className='relative flex items-center justify-center h-72 bg-fixed bg-productos bg-center w-full'>
+                <div className='absolute inset-0 bg-cover bg-opacity-50'></div>
                 <span className='z-10 text-5xl text-white text-with-shadow text-center'>
                     Productos
                 </span>
             </div>
-            <div className='grid sm:grid-cols-3 gap-4 w-full container mx-auto lg:h-[745px] overflow-hidden my-8'>
+            <div className='grid sm:grid-cols-3 gap-x-4 gap-y-10 w-full container mx-auto my-8'>
                 {productos.map((producto, index) => (
-                    <div key={index}  className='w-full group h-[360px] items-end flex transition-all duration-200 hover:pb-4'>
-                        <div className='w-full lg:w-[320px] h-[320px] flex justify-center mx-auto shadow-md relative border rounded-xl group-hover:mb-2'>
-                            <button className='w-auto h-62 '>
-                                <img src={producto.imagen} className='w-[210px] h-44 rounded-lg shadow-lg object-cover' alt={producto.nombre} />
+                    <div key={index} className='w-full lg:w-[320px] h-[320px] group  items-end flex transition-all duration-200 hover:pb-4'>
+                        <div className='w-full h-[320px] bg-white flex flex-col mx-auto shadow-md relative border rounded-xl group-hover:mb-2'>
+                            <button className='w-full h-[80%]'>
+                                <img src={producto.imagen} className='w-full h-full rounded-t-md shadow-lg object-cover' alt={producto.nombre} />
                             </button>
-                            <div className='transition-all group-hover:bg-slate-500 mx-auto w-[100%] group-hover:h-16 absolute bottom-0 rounded-b-xl'>
+                            <div className='transition-all group-hover:bg-gray-600 w-[100%] group-hover:h-[65px] h-[20%] relative bottom-0 rounded-b-xl text-center items-center mx-auto'>
+                                <p className='text-md relative -bottom-5  group-hover:text-white  transition-all text-center mx-auto text-black'>
+                                    {producto.nombre}
+                                </p>
                             </div>
-                            <p className='text-lg absolute bottom-1 mx-auto group-hover:bottom-4 group-hover:text-white group-hover:font-bold transition-all'>
-                                {producto.nombre}
-                            </p>
                         </div>
                     </div>
                 ))
