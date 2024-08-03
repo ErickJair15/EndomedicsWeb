@@ -11,7 +11,7 @@ const ImageProductos = () => {
     const productos = [
         { nombre: "Fulguración con sistema Argon", imagen: "/new/fulguracionArgon.jpeg" },
         { nombre: "Láser holmiun de 30wats  y 100 wats", imagen: "/new/laserHomium.jpeg" },
-        { nombre: "Lithiclass neumático", imagen: "/new/litHiClass.jpeg" },
+        { nombre: "Lithoclass neumático", imagen: "/new/litHiClass.jpeg" },
         { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino.jpeg" },
         { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino2.jpeg" },
         { nombre: "Sellador de vasos ligasure", imagen: "/new/selladorVasos.jpeg" },
