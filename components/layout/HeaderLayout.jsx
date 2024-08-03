@@ -61,7 +61,7 @@ function HeaderLayout() {
               <div className="flex lg:space-x-5">
                 <a href="#inicio" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>INICIO</a>
                 <a href="#about" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>QUIENES SOMOS</a>
-                <a href="/productos" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>PRODUCTOS EN VENTA</a>
+                <a href="/productos" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>SERVICIOS</a>
                 <a href="/contacto" className="text-white hover:font-bold hover:bg-white hover:text-[#2563EB] hover:rounded-md p-2 transition-all" onClick={handleNavClick}>CONTACTO</a>
               </div>
             </div>
@@ -104,7 +104,7 @@ function HeaderLayout() {
               href="/productos"
               onClick={() => setIsOpen(false)}
             >
-              Productos
+              Servicios
             </Link>
             <Link
               className="block py-2.5 px-4 hover:bg-gray-100 hover:text-gray-600"

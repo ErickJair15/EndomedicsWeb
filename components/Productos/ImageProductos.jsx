@@ -24,7 +24,7 @@ const ImageProductos = () => {
             <div className='relative flex items-center justify-center h-72 bg-fixed bg-productos bg-center w-full'>
                 <div className='absolute inset-0 bg-cover bg-opacity-50'></div>
                 <span className='z-10 text-5xl text-white text-with-shadow text-center'>
-                    Productos
+                    Servicios
                 </span>
             </div>
             <div className='grid sm:grid-cols-3 gap-x-4 gap-y-10 w-full container mx-auto my-8'>

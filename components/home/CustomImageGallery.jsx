@@ -3,7 +3,7 @@ import Zoom from 'react-medium-image-zoom';
 import 'react-medium-image-zoom/dist/styles.css'; // Importa los estilos
 // Agrega más imágenes según sea necesario
 const images = [
-  '/new/frame1.jpeg',
+  '/home/home2.jpeg',
   '/new/frame2.jpeg',
   '/new/frame3.jpeg',
   '/new/frame4.jpeg',

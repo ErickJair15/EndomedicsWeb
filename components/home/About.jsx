@@ -15,9 +15,9 @@ function About() {
                     </div>
                     <div className='flex justify-end sm:justify-end'>
                         <img
-                            src="/home/endomedicsHome1.jpeg"
+                            src="/home/home1.jpeg"
                             alt="Imagen 1"
-                            className='sm:h-[240px] sm:w-[90%] lg:h-[360px] lg:w-[90%] rounded-md'
+                            className='sm:h-[240px] sm:w-[90%] lg:h-[300px] lg:w-[70%] rounded-md '
                         />
                     </div>
                 </div>
@@ -26,7 +26,7 @@ function About() {
                         <img
                             src="/home/endomedicsHome2.jpeg"
                             alt="Imagen 1"
-                            className='sm:h-[240px] sm:w-[90%] lg:h-[360px] lg:w-[90%] rounded-md'
+                            className='sm:h-[240px] sm:w-[90%] lg:h-[300px] lg:w-[70%] rounded-md'
                         />
                     </div>
                     <div className='w-[100%] flex flex-col justify-center order-first sm:order-last'>
