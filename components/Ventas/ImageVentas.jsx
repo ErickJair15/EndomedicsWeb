@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ImageProductos = () => {
+const ImageVentas = () => {
     // const productos = [
     //     { nombre: "Producto 1", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-4.jpeg" },
     //     { nombre: "Producto 2", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09.jpeg" },
@@ -9,19 +9,19 @@ const ImageProductos = () => {
     //     { nombre: "Producto 5", imagen: "https://endomedicsqro.com.mx/wp-content/uploads/2024/03/WhatsApp-Image-2024-03-19-at-22.33.09-3.jpeg" }
     // ]
     const productos = [
-        { nombre: "Fulguración con sistema Argon", imagen: "/new/fulguracionArgon.jpeg" },
-        { nombre: "Láser holmiun de 30wats  y 100 wats", imagen: "/new/laserHomium.jpeg" },
-        { nombre: "Lithoclass neumático", imagen: "/new/litHiClass.jpeg" },
-        { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino.jpeg" },
-        { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino2.jpeg" },
-        { nombre: "Sellador de vasos ligasure", imagen: "/new/selladorVasos.jpeg" },
-        { nombre: "Separador universal Thompson", imagen: "/new/separadorUniversal.jpeg" },
+        // { nombre: "Fulguración con sistema Argon", imagen: "/new/fulguracionArgon.jpeg" },
+        // { nombre: "Láser holmiun de 30wats  y 100 wats", imagen: "/new/laserHomium.jpeg" },
+        // { nombre: "Lithoclass neumático", imagen: "/new/litHiClass.jpeg" },
+        // { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino.jpeg" },
+        // { nombre: "Manipulador uterino", imagen: "/new/manipuladorUterino2.jpeg" },
+        // { nombre: "Sellador de vasos ligasure", imagen: "/new/selladorVasos.jpeg" },
+        // { nombre: "Separador universal Thompson", imagen: "/new/separadorUniversal.jpeg" },
         { nombre: "Separador universal Thompson", imagen: "/new/separadorUniversal2.jpeg" },
         { nombre: "Tiramiomas", imagen: "/new/tiramiomas.jpeg" }
     ]
 
     const phoneNumber = "5214425619371";
-    const message = "Hola,%20más%20información%20sobre%20el%20servicio%20"; // Mensaje codificado
+    const message = "Hola,%20me%20interesa%20más%20información%20sobre%20el%20producto%20"; // Mensaje codificado
 
 
     return (
@@ -29,10 +29,10 @@ const ImageProductos = () => {
             <div className='relative flex items-center justify-center h-72 bg-fixed bg-productos bg-center w-full'>
                 <div className='absolute inset-0 bg-cover bg-opacity-50'></div>
                 <span className='z-10 text-5xl text-white text-with-shadow text-center'>
-                    Servicios
+                    Productos en venta
                 </span>
             </div>
-            <div className='grid sm:grid-cols-3 gap-x-4 gap-y-10 w-full container mx-auto my-8'>
+            <div className='flex justify-center gap-x-4 gap-y-10 w-full container mx-auto my-8'>
                 {productos.map((producto, index) => (
                     <>
                         <a href={`https://wa.me/${phoneNumber}?text=${message}${producto.nombre}`} target="_blank" rel="noopener noreferrer">
@@ -57,4 +57,5 @@ const ImageProductos = () => {
     )
 }
 
-export default ImageProductos
+export default ImageVentas
+
