@@ -114,7 +114,7 @@ function HeaderLayout() {
               href="/venta"
               onClick={() => setIsOpen(false)}
             >
-              VENTA
+              Venta
             </Link>
             <Link
               className="block py-2.5 px-4 hover:bg-gray-100 hover:text-gray-600"

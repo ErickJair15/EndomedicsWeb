@@ -32,7 +32,7 @@ const ImageVentas = () => {
                     Productos en venta
                 </span>
             </div>
-            <div className='flex justify-center gap-x-4 gap-y-10 w-full container mx-auto my-8'>
+            <div className='grid sm:grid-cols-2 justify-center gap-x-4 gap-y-10 w-full container mx-auto my-8'>
                 {productos.map((producto, index) => (
                     <>
                         <a href={`https://wa.me/${phoneNumber}?text=${message}${producto.nombre}`} target="_blank" rel="noopener noreferrer">
